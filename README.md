@@ -1,13 +1,14 @@
-# Sentiment-Analysis-Google-Play-App-Reviews
+# Sentiment-Analysis-Google-Play-App-Reviews 
 
-The aim of this project is to create a custom dataset for sentiment analysis. Use the data to fine-tune a BERT model and deploy your NLP model as an API.
+#### Sử dụng bộ dữ liệu tiếng Việt
 
+Mục đích của dự án này là tạo ra một tập dữ liệu tùy chỉnh để phân tích tình cảm. Sử dụng dữ liệu để tinh chỉnh mô hình BERT và triển khai mô hình NLP của bạn dưới dạng API.
 
-• This repository consists of files required for end to end implementation of Sentiment Analysis of Google Play App Reviews ___Natural Language Processing Web App___ created with ___FastApi.
+• Kho lưu trữ này bao gồm các tệp cần thiết để triển khai từ đầu đến cuối Phân tích ý kiến ​​của Ứng dụng web xử lý ngôn ngữ tự nhiên trên Google Play Đánh giá ứng dụng ngôn ngữ tự nhiên được tạo bằng ___FastApi.
 
 ## setup
-- Clone the repository : https://github.com/ni3choudhary/Sentiment-Analysis-Google-Play-App-Reviews.git
-- Inside the project root directory, Create Python Virtual Environment and activate it using below commands 
+- Clone the repository : https://github.com/ITHealer/Sentiment-Analysis-with-Bert-and-Hugging-Face-using-Torch.git
+- Bên trong thư mục gốc của dự án, Tạo Môi trường Ảo Python và kích hoạt nó bằng các lệnh dưới đây
 ```console
 $ python3 -m venv env
 ``` 
@@ -23,10 +24,10 @@ Install Libraries using below command
 $ pip install -r requirements.txt
 ```
 
-- Run jupyter notebooks to get the necessary files if you try to build it from scratch.
+- Chạy sổ ghi chép jupyter để lấy các tệp cần thiết nếu bạn cố gắng tạo nó từ đầu.
 
 ## The Files explained
-Use the files as following to create the project from scratch or create your own project in an adapted way.
+Sử dụng các tệp như sau để tạo dự án từ đầu hoặc tạo dự án của riêng bạn theo cách phù hợp.
 
 **1. scrape_app_information.ipynb** to scrape top 15 app information  from the productivity category using google-play-scraper package.
 
@@ -40,7 +41,7 @@ Use the files as following to create the project from scratch or create your own
 
 **6. sentiment_analyzer/classifier/model.py** to create an interface to abstract the inference logic. It exposes a single predict() method with all the text processing required to build a sentiment analysis model.
 
-- Now Inside sentiment_analyzer directory run **api.py** on terminal to start local server.
+- Bây giờ bên trong thư mục sentiment_analyzer chạy ** api.py ** trên terminal để khởi động máy chủ cục bộ (local server).
 ```console
 $ uvicorn api:app --reload
 ```
@@ -49,5 +50,4 @@ $ uvicorn api:app --reload
 
 ![GIF](readme_resources/sentiment-analyzer.gif)
 
-• Please do ⭐ the repository, if it helped you in anyway.
-
+• Để lại ⭐ cho project của tôi nếu nó giúp ích cho bạn.
