@@ -1,13 +1,13 @@
 # Sentiment-Analysis-Google-Play-App-Reviews 
 
-#### Sử dụng bộ dữ liệu tiếng Việt
+#### Sử dụng bộ dữ liệu tiếng Việt (data_tv.csv)
 
 Mục đích của dự án này là tạo ra một tập dữ liệu tùy chỉnh để phân tích tình cảm. Sử dụng dữ liệu để tinh chỉnh mô hình BERT và triển khai mô hình NLP của bạn dưới dạng API.
 
 • Kho lưu trữ này bao gồm các tệp cần thiết để triển khai từ đầu đến cuối Phân tích ý kiến ​​của Ứng dụng web xử lý ngôn ngữ tự nhiên trên Google Play Đánh giá ứng dụng ngôn ngữ tự nhiên được tạo bằng ___FastApi.
 
 ## setup
-- Clone the repository : https://github.com/ITHealer/Sentiment-Analysis-with-Bert-and-Hugging-Face-using-Torch.git
+- Clone the repository : https://github.com/ITHealer/Sentiment-Analysis-Vietnames-with-Bert-and-Hugging-Face-using-Torch.git
 - Bên trong thư mục gốc của dự án, Tạo Môi trường Ảo Python và kích hoạt nó bằng các lệnh dưới đây
 ```console
 $ python3 -m venv env
@@ -48,6 +48,10 @@ $ uvicorn api:app --reload
 
 ## App Demo
 
-![GIF](readme_resources/sentiment-analyzer.gif)
+![image](https://user-images.githubusercontent.com/94621494/201226425-93a1c54c-0fdd-4d53-ae4f-59be3048dc0b.png)
+
+![image](https://user-images.githubusercontent.com/94621494/201226453-e88c614c-36c0-4df1-a7ea-522571f4d0b8.png)
+
+![image](https://user-images.githubusercontent.com/94621494/201226485-b9fd59ee-c2e4-4975-98d9-e75b1fc9ac80.png)
 
 • Để lại ⭐ cho project của tôi nếu nó giúp ích cho bạn.
