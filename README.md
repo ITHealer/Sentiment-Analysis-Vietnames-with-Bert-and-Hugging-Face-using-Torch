@@ -46,7 +46,7 @@ Sử dụng các tệp như sau để tạo dự án từ đầu hoặc tạo d�
 $ uvicorn api:app --reload
 ```
 
-## App Demo
+## App Demo (accuracy: 78% train 10 lần)
 
 ![image](https://user-images.githubusercontent.com/94621494/201226425-93a1c54c-0fdd-4d53-ae4f-59be3048dc0b.png)
 
